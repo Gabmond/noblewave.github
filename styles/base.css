@@ -148,6 +148,10 @@ ul, li {
   color: var(--white);
 }
 
+.nav-logo-img {
+  display: none;
+}
+
 .nav-logo:hover {
   color: var(--white);
 }
@@ -229,7 +233,7 @@ ul, li {
 .hero-section h1 {
   font-weight: var(--font-weight-bold);
   max-width: 900px;
-  padding-top: 10rem;
+  padding-top: 7rem;
   font-size: clamp(3rem, 5vw, 6rem);
 }
 
