@@ -1,0 +1,56 @@
+:root {
+    /* =========================
+       TYPOGRAPHY SCALE
+    ========================== */
+    --text-sm: 1.4rem;
+    --text-base: 1.6rem;
+    --text-paragraph: 1.8rem;
+    --text-h5: 2.4rem;
+    --text-h4: 3.2rem;
+    --text-h3: 4rem;
+    --text-h2: 4.8rem;
+    --text-h1: 6.2rem;
+  
+    /* FONT WEIGHT */
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+  
+    /* LINE HEIGHT */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+  
+    /* LETTER SPACING */
+    --letter-spacing-tight: -2px;
+    --letter-spacing-normal: -1px;
+  
+    /* FONT FAMILY */
+      font-family: "Roboto Mono", monospace;
+  
+    /* =========================
+       COLORS
+    ========================== */
+    --primary-base: #0f0d27;
+    --primary-tint: #1a173dc9;
+    --primary-shade: #070615;
+  
+    --secondary-base: #5b2d9c;
+    --secondary-tint: #9b6ddc;
+    --secondary-shade: #452177;
+  
+    --tertiary-base: #d1d0d9;
+    --tertiary-tint: #f2f1f6;
+    --tertiary-shade: rgb(154, 153, 168);
+  
+    --grey-base: #495057;
+    --grey-tint: #f1f3f3;
+    --grey-shade: #212529;
+    
+  
+    --white: #ffffff;
+    --black: #000000;
+
+    --none: none;
+
+    --navbar-height: 60px;
+   }
+   
