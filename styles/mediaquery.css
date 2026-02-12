@@ -58,7 +58,7 @@
         align-items: center;
         width: 100%;
         height: 100vh;
-        line-height: 120px;
+        line-height: 50px;
         font-size: var(--text-paragraph);
         gap: 1.7rem !important;
         position: absolute;
@@ -194,6 +194,35 @@
 
 
 @media (max-width: 651px) {
+    .navbar {
+        height: 40px;
+    }
+
+    .nav-logo {
+        display: none;
+        font-size: calc(var(--text-h5) - 0.1rem);
+        letter-spacing: 2px;
+    }
+
+    .nav-logo-img {
+        display: block;
+        width: 45px;
+    }
+
+    .navbar-toggle {
+        padding: 2px;
+    }
+
+    .navbar.scrolled {
+        height: calc(var(--navbar-height) - 10px);
+    }
+
+    .bar {
+        width: 18px;
+        height: 2px;
+        margin: 4px auto;
+    }
+
     .card-grid {
         grid-template-columns: 1fr
     }
